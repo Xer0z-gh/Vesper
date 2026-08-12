@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Gate Chop" author="Sable Audio" category="Showcase" tags="gate,chop,rhythmic" version="1.0.0">
+  <PARAM id="gte_on" value="1"/>
+  <PARAM id="gte_thresh" value="-26"/>
+  <PARAM id="gte_range" value="-40"/>
+  <PARAM id="gte_attack" value="1"/>
+  <PARAM id="gte_hold" value="12"/>
+  <PARAM id="gte_release" value="60"/>
+  <PARAM id="gte_mode" value="0"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

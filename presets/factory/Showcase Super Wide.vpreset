@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Super Wide" author="Sable Audio" category="Showcase" tags="stereo,width,haas" version="1.0.0">
+  <PARAM id="st_on" value="1"/>
+  <PARAM id="st_width" value="185"/>
+  <PARAM id="st_haas" value="12"/>
+  <PARAM id="st_monofreq" value="140"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

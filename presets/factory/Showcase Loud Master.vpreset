@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Loud Master" author="Sable Audio" category="Showcase" tags="limiter,master,loud" version="1.0.0">
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_gain" value="7"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+  <PARAM id="lim_release" value="120"/>
+  <PARAM id="lim_tp" value="1"/>
+  <PARAM id="lim_softclip" value="1"/>
+</VesperPreset>

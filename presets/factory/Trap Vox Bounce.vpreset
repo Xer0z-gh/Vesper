@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Trap Vox Bounce" author="Sable Audio" category="Vocals" tags="bounce,triplet,vocal" version="1.0.0">
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-24"/>
+  <PARAM id="cmp_ratio" value="4"/>
+  <PARAM id="cmp_attack" value="5"/>
+  <PARAM id="cmp_release" value="100"/>
+  <PARAM id="cmp_makeup" value="3"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="5"/>
+  <PARAM id="sat_drive" value="6"/>
+  <PARAM id="sat_mix" value="55"/>
+  <PARAM id="dly_on" value="1"/>
+  <PARAM id="dly_div" value="8"/>
+  <PARAM id="dly_feedback" value="40"/>
+  <PARAM id="dly_pingpong" value="1"/>
+  <PARAM id="dly_mix" value="20"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="2"/>
+  <PARAM id="rev_size" value="40"/>
+  <PARAM id="rev_decay" value="1.6"/>
+  <PARAM id="rev_mix" value="14"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

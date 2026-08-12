@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Mono Maker Bass" author="Sable Audio" category="Bass" tags="tight,mono,clean" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="28"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="0"/>
+  <PARAM id="sat_drive" value="6"/>
+  <PARAM id="sat_mix" value="50"/>
+  <PARAM id="st_on" value="1"/>
+  <PARAM id="st_monofreq" value="150"/>
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-18"/>
+  <PARAM id="cmp_ratio" value="3"/>
+  <PARAM id="cmp_attack" value="15"/>
+  <PARAM id="cmp_release" value="180"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

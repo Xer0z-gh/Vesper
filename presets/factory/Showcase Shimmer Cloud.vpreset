@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Shimmer Cloud" author="Sable Audio" category="Showcase" tags="reverb,shimmer,octave" version="1.0.0">
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="3"/>
+  <PARAM id="rev_decay" value="7"/>
+  <PARAM id="rev_size" value="90"/>
+  <PARAM id="rev_shimmer" value="75"/>
+  <PARAM id="rev_locut" value="180"/>
+  <PARAM id="rev_mix" value="60"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Knock" author="Sable Audio" category="Drums" tags="punch,trap,hard" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="0"/>
+  <PARAM id="eq_b1_freq" value="60"/>
+  <PARAM id="eq_b1_gain" value="3"/>
+  <PARAM id="eq_b1_q" value="1.2"/>
+  <PARAM id="trn_on" value="1"/>
+  <PARAM id="trn_attack" value="60"/>
+  <PARAM id="trn_sustain" value="-15"/>
+  <PARAM id="trn_speed" value="0"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="2"/>
+  <PARAM id="sat_drive" value="8"/>
+  <PARAM id="sat_mix" value="70"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_gain" value="2"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

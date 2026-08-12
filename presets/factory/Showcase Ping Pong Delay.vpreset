@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Ping Pong Delay" author="Sable Audio" category="Showcase" tags="delay,pingpong,sync" version="1.0.0">
+  <PARAM id="dly_on" value="1"/>
+  <PARAM id="dly_sync" value="1"/>
+  <PARAM id="dly_div" value="6"/>
+  <PARAM id="dly_feedback" value="62"/>
+  <PARAM id="dly_pingpong" value="1"/>
+  <PARAM id="dly_color" value="1"/>
+  <PARAM id="dly_width" value="100"/>
+  <PARAM id="dly_mix" value="45"/>
+</VesperPreset>

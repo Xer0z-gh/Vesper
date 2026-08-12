@@ -1,0 +1,108 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+    branches: [main]
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build-and-test:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: "Windows",    os: windows-latest }
+          - { name: "macOS",      os: macos-latest }
+          - { name: "Linux",      os: ubuntu-latest }
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Linux dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libasound2-dev libjack-jackd2-dev \
+            libx11-dev libxcomposite-dev libxcursor-dev libxext-dev \
+            libxinerama-dev libxrandr-dev libxrender-dev \
+            libfreetype6-dev libfontconfig1-dev libgl1-mesa-dev \
+            libcurl4-openssl-dev
+
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }}
+
+      - name: Build
+        run: cmake --build build --config ${{ env.BUILD_TYPE }} --parallel 4
+
+      - name: Run unit tests
+        run: ctest --test-dir build -C ${{ env.BUILD_TYPE }} --output-on-failure
+
+      - name: Collect artifacts (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force dist
+          Copy-Item -Recurse "build/Vesper_artefacts/${{ env.BUILD_TYPE }}/VST3/Vesper.vst3" dist/
+          Copy-Item "build/Vesper_artefacts/${{ env.BUILD_TYPE }}/Standalone/Vesper.exe" dist/
+
+      - name: Collect artifacts (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          mkdir -p dist
+          cp -R "build/Vesper_artefacts/${{ env.BUILD_TYPE }}/VST3/Vesper.vst3" dist/
+          cp -R "build/Vesper_artefacts/${{ env.BUILD_TYPE }}/AU/Vesper.component" dist/
+          cp -R "build/Vesper_artefacts/${{ env.BUILD_TYPE }}/Standalone/Vesper.app" dist/
+
+      - name: Collect artifacts (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          mkdir -p dist
+          cp -R "build/Vesper_artefacts/${{ env.BUILD_TYPE }}/VST3/Vesper.vst3" dist/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Vesper-${{ matrix.name }}
+          path: dist/
+
+  # Validate the plugin loads & passes the industry-standard host checks.
+  pluginval:
+    name: pluginval (${{ matrix.os }})
+    needs: build-and-test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest]
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: Vesper-${{ matrix.os == 'windows-latest' && 'Windows' || 'macOS' }}
+          path: dist
+
+      - name: Fetch pluginval (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          Invoke-WebRequest "https://github.com/Tracktion/pluginval/releases/latest/download/pluginval_Windows.zip" -OutFile pluginval.zip
+          Expand-Archive pluginval.zip -DestinationPath .
+
+      - name: Fetch pluginval (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          curl -L "https://github.com/Tracktion/pluginval/releases/latest/download/pluginval_macOS.zip" -o pluginval.zip
+          unzip pluginval.zip
+
+      - name: Validate VST3 (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./pluginval.exe --strictness-level 8 --validate "dist/Vesper.vst3" --skip-gui-tests
+
+      - name: Validate VST3 (macOS)
+        if: runner.os == 'macOS'
+        run: ./pluginval.app/Contents/MacOS/pluginval --strictness-level 8 --validate "dist/Vesper.vst3" --skip-gui-tests

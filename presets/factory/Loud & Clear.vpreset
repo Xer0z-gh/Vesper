@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Loud &amp; Clear" author="Sable Audio" category="Master" tags="loud,edm,limiter" version="1.0.0">
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="3"/>
+  <PARAM id="sat_drive" value="3"/>
+  <PARAM id="sat_mix" value="45"/>
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-12"/>
+  <PARAM id="cmp_ratio" value="1.8"/>
+  <PARAM id="cmp_attack" value="20"/>
+  <PARAM id="cmp_release" value="150"/>
+  <PARAM id="cmp_detect" value="1"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_gain" value="5"/>
+  <PARAM id="lim_ceiling" value="-0.3"/>
+  <PARAM id="lim_release" value="60"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

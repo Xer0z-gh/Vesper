@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Wide Dream Pad" author="Sable Audio" category="Synth" tags="wide,dreamy,ambient" version="1.0.0">
+  <PARAM id="mod_on" value="1"/>
+  <PARAM id="mod_mode" value="1"/>
+  <PARAM id="mod_rate" value="0.3"/>
+  <PARAM id="mod_depth" value="55"/>
+  <PARAM id="mod_mix" value="45"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="3"/>
+  <PARAM id="rev_size" value="80"/>
+  <PARAM id="rev_decay" value="6"/>
+  <PARAM id="rev_shimmer" value="35"/>
+  <PARAM id="rev_mix" value="35"/>
+  <PARAM id="st_on" value="1"/>
+  <PARAM id="st_width" value="160"/>
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="120"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

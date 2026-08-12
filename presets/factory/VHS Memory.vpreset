@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="VHS Memory" author="Sable Audio" category="Lo-fi" tags="vhs,nostalgic,wobble" version="1.0.0">
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="14"/>
+  <PARAM id="sat_drive" value="10"/>
+  <PARAM id="sat_mix" value="70"/>
+  <PARAM id="flt_on" value="1"/>
+  <PARAM id="flt_type" value="0"/>
+  <PARAM id="flt_cutoff" value="5200"/>
+  <PARAM id="flt_res" value="12"/>
+  <PARAM id="mod_on" value="1"/>
+  <PARAM id="mod_mode" value="5"/>
+  <PARAM id="mod_rate" value="0.7"/>
+  <PARAM id="mod_depth" value="18"/>
+  <PARAM id="mod_mix" value="45"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="0"/>
+  <PARAM id="rev_size" value="35"/>
+  <PARAM id="rev_decay" value="1.2"/>
+  <PARAM id="rev_mix" value="15"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

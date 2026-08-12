@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Reverse Swell" author="Sable Audio" category="Showcase" tags="reverb,reverse,swell" version="1.0.0">
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="6"/>
+  <PARAM id="rev_decay" value="3.5"/>
+  <PARAM id="rev_size" value="80"/>
+  <PARAM id="rev_mix" value="70"/>
+  <PARAM id="rev_width" value="100"/>
+</VesperPreset>

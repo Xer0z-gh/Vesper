@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Tremolo Chop" author="Sable Audio" category="Showcase" tags="motion,tremolo,sync" version="1.0.0">
+  <PARAM id="mod_on" value="1"/>
+  <PARAM id="mod_mode" value="6"/>
+  <PARAM id="mod_sync" value="1"/>
+  <PARAM id="mod_div" value="9"/>
+  <PARAM id="mod_depth" value="100"/>
+  <PARAM id="mod_mix" value="100"/>
+</VesperPreset>

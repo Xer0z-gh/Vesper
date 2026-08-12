@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Endless Shimmer" author="Sable Audio" category="Ambient" tags="shimmer,infinite,pad" version="1.0.0">
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="3"/>
+  <PARAM id="rev_size" value="100"/>
+  <PARAM id="rev_decay" value="9"/>
+  <PARAM id="rev_shimmer" value="50"/>
+  <PARAM id="rev_damp" value="25"/>
+  <PARAM id="rev_mix" value="55"/>
+  <PARAM id="mod_on" value="1"/>
+  <PARAM id="mod_mode" value="0"/>
+  <PARAM id="mod_rate" value="0.25"/>
+  <PARAM id="mod_depth" value="35"/>
+  <PARAM id="mod_mix" value="30"/>
+  <PARAM id="st_on" value="1"/>
+  <PARAM id="st_width" value="170"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Octave Sub" author="Sable Audio" category="Showcase" tags="pitch,octave,sub" version="1.0.0">
+  <PARAM id="pit_on" value="1"/>
+  <PARAM id="pit_mode" value="2"/>
+  <PARAM id="pit_amount" value="100"/>
+  <PARAM id="pit_mix" value="70"/>
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="35"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

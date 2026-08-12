@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Pumping Comp" author="Sable Audio" category="Showcase" tags="compressor,pump,glue" version="1.0.0">
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-32"/>
+  <PARAM id="cmp_ratio" value="10"/>
+  <PARAM id="cmp_attack" value="1"/>
+  <PARAM id="cmp_release" value="180"/>
+  <PARAM id="cmp_knee" value="2"/>
+  <PARAM id="cmp_makeup" value="6"/>
+  <PARAM id="cmp_character" value="1"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

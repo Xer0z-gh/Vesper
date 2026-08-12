@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Fuzz Wall" author="Sable Audio" category="Showcase" tags="saturation,fuzz,dirty" version="1.0.0">
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="11"/>
+  <PARAM id="sat_drive" value="16"/>
+  <PARAM id="sat_tone" value="-0.25"/>
+  <PARAM id="sat_mix" value="100"/>
+  <PARAM id="sat_out" value="-8"/>
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b6_on" value="1"/>
+  <PARAM id="eq_b6_type" value="4"/>
+  <PARAM id="eq_b6_freq" value="7000"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

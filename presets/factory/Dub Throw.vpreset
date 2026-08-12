@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Dub Throw" author="Sable Audio" category="FX" tags="dub,delay,throw" version="1.0.0">
+  <PARAM id="dly_on" value="1"/>
+  <PARAM id="dly_color" value="1"/>
+  <PARAM id="dly_div" value="4"/>
+  <PARAM id="dly_feedback" value="65"/>
+  <PARAM id="dly_wow" value="35"/>
+  <PARAM id="dly_locut" value="200"/>
+  <PARAM id="dly_hicut" value="4500"/>
+  <PARAM id="dly_diffuse" value="40"/>
+  <PARAM id="dly_mix" value="45"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="2"/>
+  <PARAM id="rev_size" value="50"/>
+  <PARAM id="rev_decay" value="2.2"/>
+  <PARAM id="rev_mix" value="18"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

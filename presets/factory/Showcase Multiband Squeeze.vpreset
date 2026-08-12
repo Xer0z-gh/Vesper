@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Multiband Squeeze" author="Sable Audio" category="Showcase" tags="multiband,control,glue" version="1.0.0">
+  <PARAM id="mbc_on" value="1"/>
+  <PARAM id="mbc_xlow" value="180"/>
+  <PARAM id="mbc_xhigh" value="3000"/>
+  <PARAM id="mbc_lo_thresh" value="-28"/>
+  <PARAM id="mbc_lo_ratio" value="6"/>
+  <PARAM id="mbc_lo_gain" value="3"/>
+  <PARAM id="mbc_mid_thresh" value="-24"/>
+  <PARAM id="mbc_mid_ratio" value="4"/>
+  <PARAM id="mbc_hi_thresh" value="-30"/>
+  <PARAM id="mbc_hi_ratio" value="8"/>
+  <PARAM id="mbc_hi_gain" value="-2"/>
+  <PARAM id="mbc_attack" value="8"/>
+  <PARAM id="mbc_release" value="140"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

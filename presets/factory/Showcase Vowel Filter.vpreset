@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Vowel Filter" author="Sable Audio" category="Showcase" tags="filter,formant,vowel" version="1.0.0">
+  <PARAM id="flt_on" value="1"/>
+  <PARAM id="flt_type" value="5"/>
+  <PARAM id="flt_cutoff" value="600"/>
+  <PARAM id="flt_res" value="70"/>
+  <PARAM id="flt_drive" value="3"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

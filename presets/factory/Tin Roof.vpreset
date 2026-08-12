@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Tin Roof" author="Sable Audio" category="Guitar" tags="springy,short,character" version="1.0.0">
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="2"/>
+  <PARAM id="rev_size" value="25"/>
+  <PARAM id="rev_decay" value="1.1"/>
+  <PARAM id="rev_damp" value="30"/>
+  <PARAM id="rev_mix" value="28"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="9"/>
+  <PARAM id="sat_drive" value="5"/>
+  <PARAM id="sat_mix" value="50"/>
+  <PARAM id="mod_on" value="1"/>
+  <PARAM id="mod_mode" value="5"/>
+  <PARAM id="mod_rate" value="5.5"/>
+  <PARAM id="mod_depth" value="12"/>
+  <PARAM id="mod_mix" value="25"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

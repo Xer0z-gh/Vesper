@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Attack Snap" author="Sable Audio" category="Showcase" tags="transient,punch,attack" version="1.0.0">
+  <PARAM id="trn_on" value="1"/>
+  <PARAM id="trn_attack" value="85"/>
+  <PARAM id="trn_sustain" value="-45"/>
+  <PARAM id="trn_speed" value="0"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

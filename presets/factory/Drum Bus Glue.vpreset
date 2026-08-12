@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Drum Bus Glue" author="Sable Audio" category="Drums" tags="glue,bus,punch" version="1.0.0">
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-16"/>
+  <PARAM id="cmp_ratio" value="2"/>
+  <PARAM id="cmp_attack" value="30"/>
+  <PARAM id="cmp_release" value="140"/>
+  <PARAM id="cmp_knee" value="12"/>
+  <PARAM id="cmp_makeup" value="2"/>
+  <PARAM id="cmp_detect" value="1"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="1"/>
+  <PARAM id="sat_drive" value="5"/>
+  <PARAM id="sat_mix" value="55"/>
+  <PARAM id="trn_on" value="1"/>
+  <PARAM id="trn_attack" value="15"/>
+  <PARAM id="trn_speed" value="1"/>
+  <CHAIN order="0,1,3,2,4,5,6,7,8,9"/>
+</VesperPreset>

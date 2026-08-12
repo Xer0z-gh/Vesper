@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Spoken Word" author="Sable Audio" category="Podcast" tags="voice,clean,broadcast" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="80"/>
+  <PARAM id="eq_b4_on" value="1"/>
+  <PARAM id="eq_b4_freq" value="2800"/>
+  <PARAM id="eq_b4_gain" value="2.0"/>
+  <PARAM id="eq_b4_q" value="0.9"/>
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-24"/>
+  <PARAM id="cmp_ratio" value="3"/>
+  <PARAM id="cmp_attack" value="10"/>
+  <PARAM id="cmp_release" value="150"/>
+  <PARAM id="cmp_makeup" value="4"/>
+  <PARAM id="cmp_upward" value="3"/>
+  <PARAM id="cmp_detect" value="1"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_gain" value="1.5"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

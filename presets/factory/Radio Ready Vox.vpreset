@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Radio Ready Vox" author="Sable Audio" category="Vocals" tags="pop,upfront,bright" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="110"/>
+  <PARAM id="eq_b4_on" value="1"/>
+  <PARAM id="eq_b4_freq" value="3200"/>
+  <PARAM id="eq_b4_gain" value="2.5"/>
+  <PARAM id="eq_b4_q" value="1.1"/>
+  <PARAM id="eq_b6_on" value="1"/>
+  <PARAM id="eq_b6_type" value="2"/>
+  <PARAM id="eq_b6_freq" value="11000"/>
+  <PARAM id="eq_b6_gain" value="4.0"/>
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-28"/>
+  <PARAM id="cmp_ratio" value="4.5"/>
+  <PARAM id="cmp_attack" value="4"/>
+  <PARAM id="cmp_release" value="90"/>
+  <PARAM id="cmp_makeup" value="5"/>
+  <PARAM id="cmp_upward" value="2"/>
+  <PARAM id="cmp_character" value="1"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="6"/>
+  <PARAM id="sat_drive" value="5"/>
+  <PARAM id="sat_mix" value="45"/>
+  <PARAM id="dly_on" value="1"/>
+  <PARAM id="dly_div" value="6"/>
+  <PARAM id="dly_feedback" value="22"/>
+  <PARAM id="dly_mix" value="12"/>
+  <PARAM id="dly_pingpong" value="1"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_gain" value="2"/>
+  <PARAM id="lim_ceiling" value="-0.5"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

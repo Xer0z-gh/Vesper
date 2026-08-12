@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Felt Piano Air" author="Sable Audio" category="Keys" tags="soft,intimate,cinematic" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="60"/>
+  <PARAM id="eq_b6_on" value="1"/>
+  <PARAM id="eq_b6_type" value="2"/>
+  <PARAM id="eq_b6_freq" value="10000"/>
+  <PARAM id="eq_b6_gain" value="2"/>
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-20"/>
+  <PARAM id="cmp_ratio" value="2"/>
+  <PARAM id="cmp_attack" value="25"/>
+  <PARAM id="cmp_release" value="200"/>
+  <PARAM id="cmp_knee" value="10"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="1"/>
+  <PARAM id="rev_size" value="65"/>
+  <PARAM id="rev_decay" value="2.8"/>
+  <PARAM id="rev_predelay" value="35"/>
+  <PARAM id="rev_mix" value="24"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

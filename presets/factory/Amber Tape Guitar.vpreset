@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Amber Tape Guitar" author="Sable Audio" category="Guitar" tags="tape,warm,vintage" version="1.0.0">
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="1"/>
+  <PARAM id="sat_drive" value="8"/>
+  <PARAM id="sat_tone" value="-0.15"/>
+  <PARAM id="sat_mix" value="70"/>
+  <PARAM id="dly_on" value="1"/>
+  <PARAM id="dly_color" value="1"/>
+  <PARAM id="dly_div" value="4"/>
+  <PARAM id="dly_feedback" value="35"/>
+  <PARAM id="dly_wow" value="40"/>
+  <PARAM id="dly_mix" value="20"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="0"/>
+  <PARAM id="rev_size" value="45"/>
+  <PARAM id="rev_decay" value="1.8"/>
+  <PARAM id="rev_mix" value="16"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

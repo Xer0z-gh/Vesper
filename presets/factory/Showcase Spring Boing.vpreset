@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Spring Boing" author="Sable Audio" category="Showcase" tags="reverb,spring,surf" version="1.0.0">
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="4"/>
+  <PARAM id="rev_decay" value="2.2"/>
+  <PARAM id="rev_size" value="45"/>
+  <PARAM id="rev_damp" value="35"/>
+  <PARAM id="rev_mix" value="55"/>
+</VesperPreset>

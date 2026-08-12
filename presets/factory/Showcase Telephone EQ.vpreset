@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Telephone EQ" author="Sable Audio" category="Showcase" tags="eq,bandpass,lofi" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="700"/>
+  <PARAM id="eq_b1_q" value="0.9"/>
+  <PARAM id="eq_b6_on" value="1"/>
+  <PARAM id="eq_b6_type" value="4"/>
+  <PARAM id="eq_b6_freq" value="2600"/>
+  <PARAM id="eq_b6_q" value="0.9"/>
+  <PARAM id="eq_b3_on" value="1"/>
+  <PARAM id="eq_b3_type" value="0"/>
+  <PARAM id="eq_b3_freq" value="1500"/>
+  <PARAM id="eq_b3_gain" value="6"/>
+  <PARAM id="eq_b3_q" value="1.4"/>
+</VesperPreset>

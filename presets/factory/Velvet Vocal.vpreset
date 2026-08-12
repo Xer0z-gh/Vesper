@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Velvet Vocal" author="Sable Audio" category="Vocals" tags="warm,smooth,rnb" version="1.0.0">
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b1_on" value="1"/>
+  <PARAM id="eq_b1_type" value="3"/>
+  <PARAM id="eq_b1_freq" value="90"/>
+  <PARAM id="eq_b1_q" value="0.71"/>
+  <PARAM id="eq_b6_on" value="1"/>
+  <PARAM id="eq_b6_type" value="2"/>
+  <PARAM id="eq_b6_freq" value="12500"/>
+  <PARAM id="eq_b6_gain" value="3.0"/>
+  <PARAM id="cmp_on" value="1"/>
+  <PARAM id="cmp_thresh" value="-22"/>
+  <PARAM id="cmp_ratio" value="3"/>
+  <PARAM id="cmp_attack" value="8"/>
+  <PARAM id="cmp_release" value="120"/>
+  <PARAM id="cmp_makeup" value="3"/>
+  <PARAM id="cmp_character" value="0"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="3"/>
+  <PARAM id="sat_drive" value="4"/>
+  <PARAM id="sat_mix" value="60"/>
+  <PARAM id="rev_on" value="1"/>
+  <PARAM id="rev_type" value="2"/>
+  <PARAM id="rev_size" value="45"/>
+  <PARAM id="rev_decay" value="1.6"/>
+  <PARAM id="rev_predelay" value="28"/>
+  <PARAM id="rev_mix" value="16"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>

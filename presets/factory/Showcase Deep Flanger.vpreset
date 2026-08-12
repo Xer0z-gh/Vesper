@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Showcase Deep Flanger" author="Sable Audio" category="Showcase" tags="motion,flanger,jet" version="1.0.0">
+  <PARAM id="mod_on" value="1"/>
+  <PARAM id="mod_mode" value="3"/>
+  <PARAM id="mod_rate" value="0.18"/>
+  <PARAM id="mod_depth" value="95"/>
+  <PARAM id="mod_feedback" value="0.72"/>
+  <PARAM id="mod_spread" value="70"/>
+  <PARAM id="mod_mix" value="55"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+</VesperPreset>

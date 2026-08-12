@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VesperPreset name="Acid Line" author="Sable Audio" category="Synth" tags="acid,303,resonant" version="1.0.0">
+  <PARAM id="flt_on" value="1"/>
+  <PARAM id="flt_type" value="3"/>
+  <PARAM id="flt_cutoff" value="850"/>
+  <PARAM id="flt_res" value="55"/>
+  <PARAM id="flt_drive" value="5"/>
+  <PARAM id="sat_on" value="1"/>
+  <PARAM id="sat_algo" value="10"/>
+  <PARAM id="sat_drive" value="6"/>
+  <PARAM id="sat_mix" value="55"/>
+  <PARAM id="dly_on" value="1"/>
+  <PARAM id="dly_div" value="6"/>
+  <PARAM id="dly_feedback" value="42"/>
+  <PARAM id="dly_pingpong" value="1"/>
+  <PARAM id="dly_mix" value="20"/>
+  <PARAM id="eq_on" value="1"/>
+  <PARAM id="eq_b5_on" value="1"/>
+  <PARAM id="eq_b5_type" value="0"/>
+  <PARAM id="eq_b5_freq" value="3200"/>
+  <PARAM id="eq_b5_gain" value="-3"/>
+  <PARAM id="eq_b5_q" value="1.1"/>
+  <PARAM id="eq_b5_dyn" value="-6"/>
+  <PARAM id="lim_on" value="1"/>
+  <PARAM id="lim_ceiling" value="-1"/>
+  <CHAIN order="0,1,2,3,4,5,6,7,8,9"/>
+</VesperPreset>
