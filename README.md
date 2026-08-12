@@ -1,12 +1,20 @@
-# 🌒 Vesper: One Plugin Instead of a Utility Chain
+<p align="center">
+  <img src="assets/vesper-mark.svg" width="96" height="96" alt="Vesper">
+</p>
+
+# Vesper: One Plugin Instead of a Utility Chain
 
 > **A creative sound design environment.** Thirteen reorderable modules, seventeen
 > saturation algorithms, shimmer reverb, linear-phase match EQ, macro moves — behind
-> one calm, monochrome interface built to instrument standards.
+> one calm interface built to instrument standards, where colour only ever marks
+> what's live.
 
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-1f1f1f) ![JUCE](https://img.shields.io/badge/JUCE-7.0.12-1f1f1f) ![Formats](https://img.shields.io/badge/formats-VST3_·_Standalone-1f1f1f) ![Platform](https://img.shields.io/badge/platform-Windows-1f1f1f) ![pluginval](https://img.shields.io/badge/pluginval-strictness_10-2ea043) ![License](https://img.shields.io/badge/license-GPLv3-2ea043)
 
-![Vesper](docs/screenshots/vesper-mono-dark.png)
+![Vesper](docs/screenshots/vesper-eq.png)
+
+<sup>The EQ: six bands, on-curve node editing, a calibrated axis, and the match-EQ
+strip — all reachable without leaving the panel.</sup>
 
 ---
 
@@ -95,10 +103,20 @@ It's documented in [docs/design/](docs/design/) (philosophy → geometry → col
 typography → motion → interaction → components → tokens → layout). UI code is
 written against those documents; ad-hoc visual decisions are treated as defects.
 
-| | |
-|---|---|
-| ![EQ](docs/screenshots/vesper-eq-bandfocus.png) | ![Match EQ](docs/screenshots/vesper-eq-match.png) |
-| Band-focus EQ with on-curve node editing | Linear-phase match EQ |
+Every module is a card with the same anatomy: a named header, the primary control
+given the space it deserves, and secondaries falling away by weight rather than by
+being hidden. Short choice lists get ‹ › steppers with page dots; only long lists
+get a pick-list.
+
+![Saturate](docs/screenshots/vesper-saturate.png)
+
+<sup>**Saturate** — the card plots the real transfer curve of the selected
+algorithm, so the shape you hear is the shape you see.</sup>
+
+![Reverb](docs/screenshots/vesper-reverb.png)
+
+<sup>**Reverb** — decay leads, the rest recede. SPACE is a stepper, not a dropdown,
+because seven options don't need a menu.</sup>
 
 ---
 
@@ -112,6 +130,26 @@ written against those documents; ad-hoc visual decisions are treated as defects.
 - **True-peak limiting** with a 16-tap inter-sample detector
 - **System-wide use on Windows** via Equalizer APO — see
   [docs/EQUALIZER-APO.md](docs/EQUALIZER-APO.md)
+
+<details>
+<summary><b>More modules</b> — Compress, Delay, Motion</summary>
+
+![Compress](docs/screenshots/vesper-compress.png)
+
+<sup>**Compress** — threshold, ratio, attack and release, with the gain-reduction
+meter reading in the performance strip along the bottom.</sup>
+
+![Delay](docs/screenshots/vesper-delay.png)
+
+<sup>**Delay** — time reads its division while synced to host tempo; colour and
+filtering shape every repeat, not just the first.</sup>
+
+![Motion](docs/screenshots/vesper-motion.png)
+
+<sup>**Motion** — eight modulation modes on one clock, rate locked to the host
+grid when SYNC is on.</sup>
+
+</details>
 
 ---
 

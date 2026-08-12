@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Vesper">
+  <!-- Vesper mark — the evening star above a horizon.
+       Two primitives of the design language: Point (the star) and Rule (the
+       horizon). Pure geometry, no text, so it renders identically anywhere and
+       keeps its silhouette down to 16 px, where the rule fades and the star
+       carries the mark alone.
+       Field: sable #0a0a0a. Star: Sable family blue #8ab4ff (D-063).
+       No gradients (D-028). The vertical axis is deliberately long and the
+       horizontal short — a star seen through a lens, not a balanced sparkle. -->
+  <rect width="512" height="512" rx="72" fill="#0a0a0a"/>
+
+  <!-- evening star (Point) — spans y 122..366, centred on x -->
+  <g transform="translate(256,244)">
+    <path d="M0,-122 C6,-43 17,-17 52,0 C17,17 6,43 0,122 C-6,43 -17,17 -52,0 C-17,-17 -6,-43 0,-122 Z"
+          fill="#8ab4ff"/>
+  </g>
+
+  <!-- horizon (Rule) — ink at 22%, 16 px clear of the star's lower point.
+       Composition sits 122 px from the top and 122 px from the bottom. -->
+  <rect x="148" y="382" width="216" height="8" rx="4" fill="#eceef1" opacity="0.22"/>
+</svg>

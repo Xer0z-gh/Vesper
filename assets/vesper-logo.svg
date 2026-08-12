@@ -1,19 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="140" viewBox="0 0 480 140">
-  <!-- VESPER wordmark — evening-star V, wide tracking, mint accent -->
-  <defs>
-    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8ad8c5"/>
-      <stop offset="1" stop-color="#5fae9c"/>
-    </linearGradient>
-  </defs>
-  <rect width="480" height="140" rx="18" fill="#121316"/>
-  <!-- star glyph -->
-  <g transform="translate(52,70)">
-    <path d="M0,-26 L5,-5 L26,0 L5,5 L0,26 L-5,5 L-26,0 L-5,-5 Z" fill="url(#mint)"/>
-    <circle r="3.2" fill="#121316"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="140" viewBox="0 0 480 140" role="img" aria-label="Vesper by Sable Audio">
+  <!-- VESPER lockup — the mark plus the wordmark.
+       Field sable #0a0a0a, radius 18 (surface ladder). Star in the Sable family
+       blue #8ab4ff (D-063); no gradient (D-028). Ink is argent #eceef1, with the
+       company line dropped to 62% of it — hierarchy by opacity, not by colour.
+       Type: the display face (Bahnschrift → DIN Alternate → Roboto Condensed).
+       Tracking is deliberately moderate — the old lockup ran 32% on the wordmark
+       and 50% on 12 px caps, which is the exact "wide tracking on tiny caps"
+       failure the type pass (D-050) was called to fix.
+       Note: this file depends on installed fonts, so it renders differently on a
+       machine without the display face. Prefer vesper-mark.svg, which is pure
+       geometry, wherever the render environment is not ours. -->
+  <rect width="480" height="140" rx="18" fill="#0a0a0a"/>
+
+  <!-- evening star + horizon, same construction as vesper-mark.svg -->
+  <g transform="translate(60,62)">
+    <path d="M0,-34 C1.7,-12 4.7,-4.7 14.5,0 C4.7,4.7 1.7,12 0,34 C-1.7,12 -4.7,4.7 -14.5,0 C-4.7,-4.7 -1.7,-12 0,-34 Z"
+          fill="#8ab4ff"/>
   </g>
-  <text x="104" y="80" font-family="Inter, 'Segoe UI', sans-serif" font-size="44"
-        font-weight="600" letter-spacing="14" fill="#e9ebee">VESPER</text>
-  <text x="107" y="104" font-family="Inter, 'Segoe UI', sans-serif" font-size="12"
-        letter-spacing="6" fill="#989ea8">SABLE AUDIO</text>
+  <rect x="36" y="106" width="48" height="3" rx="1.5" fill="#eceef1" opacity="0.22"/>
+
+  <text x="116" y="72" font-family="Bahnschrift, 'DIN Alternate', 'Roboto Condensed', 'Segoe UI', sans-serif"
+        font-size="42" font-weight="600" letter-spacing="4.2" fill="#eceef1">VESPER</text>
+  <text x="118" y="98" font-family="Bahnschrift, 'DIN Alternate', 'Roboto Condensed', 'Segoe UI', sans-serif"
+        font-size="12" font-weight="500" letter-spacing="1.9" fill="#eceef1" opacity="0.62">SABLE AUDIO</text>
 </svg>
