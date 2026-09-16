@@ -180,7 +180,7 @@ denormal-safe, allocation-free post-prepare.
   keyboard-focusable. Caught the MORPH slider being neither
 - ⏳ [S] Reduced-motion mode (ties into Phase 4 engine)
 
-## Phase 9 — Factory content ✅ 24, audited · 🔄
+## Phase 9 — Factory content ✅ 42, audited · 🔄
 - ✅ Stability + category audit (D-023): 12-bucket taxonomy, shimmer/
   feedback/resonance caps, factory-revision marker refreshes stale
   installs

@@ -56,7 +56,10 @@ purpose (Bitcrush/Downsample want it).
 - **Limiter** — 1.5 ms lookahead; attack coefficient chosen so the gain
   envelope fully lands within the lookahead window (no overshoot by
   construction), user release, optional tanh soft-clip pinned to the ceiling
-  for inter-sample energy. True-peak (oversampled) detection is roadmap.
+  for inter-sample energy. **True-peak detection reconstructs rather than
+  oversamples** (D-019): a 16-tap Blackman-windowed sinc evaluates the three
+  inter-sample points at 1/4, 1/2 and 3/4, so the detector costs no extra
+  latency and no resampler. Enabled by the `lim_tp` parameter.
 
 ## EQ & Filter (`EQFilter.h`)
 

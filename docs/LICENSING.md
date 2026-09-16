@@ -1,10 +1,21 @@
-# Vesper — Licensing structure (commercial plan)
+# Vesper — Licensing
 
-## Product
+## This repository
+
+**Vesper is released under the GNU General Public License v3.0** (D-067,
+2026-08-11) — see [`LICENSE`](../LICENSE). Taking the GPLv3 path on JUCE is what
+permits `JUCE_DISPLAY_SPLASH_SCREEN=0` here (D-053).
+
+## Commercial plan (not the licence this repository ships under)
+
+Sable Audio holds the copyright and may offer Vesper under separate commercial
+terms. What follows is a business design, not a grant, and it does not govern
+this source tree:
 
 - **Vesper** — $199 perpetual license, 3 machines, free 1.x updates
 - 14-day full trial (time-limited, no audio crippling — respect the user)
-- EULA: see `LICENSE.md`
+- A closed-source commercial build would require a JUCE commercial seat bought
+  before distribution, and a signed Steinberg VST3 agreement
 
 ## Dependencies & obligations
 

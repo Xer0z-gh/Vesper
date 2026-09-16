@@ -176,7 +176,7 @@ private:
    clip catches residual energy at the ceiling.
 
    True-peak mode (D-019): the detector reconstructs 3 inter-sample points
-   per sample with an 8-tap windowed-sinc interpolator, so the gain envelope
+   per sample with a 16-tap windowed-sinc interpolator, so the gain envelope
    answers the analog waveform, not the sample grid. Detection sits 3
    samples behind the input — well inside the 72-sample lookahead. */
 class Limiter
