@@ -4,7 +4,7 @@
 
 # Vesper: One Plugin Instead of a Utility Chain
 
-> **Thirteen modules in one window** — seventeen saturation
+> **Thirteen modules in one window, in the order you choose** — seventeen saturation
 > algorithms, shimmer reverb, linear-phase match EQ — behind one calm interface
 > where colour only ever marks what's live. 49 integration checks drive the real
 > processor and 142 unit checks cover the DSP behind it; both suites are in this
