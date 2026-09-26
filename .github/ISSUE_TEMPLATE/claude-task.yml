@@ -1,0 +1,37 @@
+name: Task for Claude
+description: Queue work for Claude. It builds, tests and opens a draft PR, or asks here first.
+labels: ["claude"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change?
+      description: The result you want, in plain words. A question works too.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How you'll judge it, e.g. "the Gate card draws its threshold line" or "a check proves the limiter never passes the ceiling".
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - DSP
+        - UI
+        - Presets
+        - Docs
+        - Build / CI
+        - Other
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Just do it (draft PR)
+        - Plan first (post a plan and wait for my OK)
+      default: 0
+    validations:
+      required: true
