@@ -209,4 +209,4 @@ VST is a trademark of Steinberg Media Technologies GmbH.
 
 Built by Tanner ([@Xer0z-gh](https://github.com/Xer0z-gh)) — available for
 contract work on audio, desktop and internal tooling. Reach me at
-tanner8206@gmail.com.
+xer0z.1nz@gmail.com.
