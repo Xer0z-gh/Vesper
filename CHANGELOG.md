@@ -1,10 +1,13 @@
 # Changelog
 
-## [Unreleased] — state as of 2026-08-11
+## [Unreleased] - state as of 2026-10-02
 
 What the source in this repository does today. Nothing past 1.0.0 is tagged yet;
-the last dated record behind these entries is decision D-067 (2026-08-11).
+the feature entries follow decision D-067 (2026-08-11), with macOS build
+compatibility updated on 2026-10-02.
 
+- macOS builds target macOS 11 Big Sur or newer; CI passes that minimum to
+  both Vesper and JUCE's configure-time helper.
 - Chain grew to 13 modules: Gate, EQ, Filter, Compressor, Multiband,
   Saturator, Transient, Motion, Pitch, Delay, Reverb, Stereo, Limiter
 - 17 saturation algorithms: Tube, Tape, Transformer, Console, Soft Analog,
