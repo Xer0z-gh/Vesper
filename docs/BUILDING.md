@@ -4,7 +4,8 @@
 
 - CMake ≥ 3.24, a C++20 compiler, git
 - **Windows:** Visual Studio 2022 Build Tools ("Desktop development with C++")
-- **macOS:** Xcode 15+ (`xcode-select --install`)
+- **macOS:** macOS 11 Big Sur or newer at runtime; Xcode 15+ to build
+  (`xcode-select --install`)
 - **Linux:** gcc 12+/clang 15+ and the JUCE deps:
   `sudo apt-get install libasound2-dev libjack-jackd2-dev libx11-dev
   libxcomposite-dev libxcursor-dev libxext-dev libxinerama-dev libxrandr-dev
@@ -17,6 +18,15 @@ Direct2D renderer requires MSVC. The MSVC/Xcode CI path can move to 8.x
 independently.)
 
 ## Build & test
+
+On macOS, first run `export MACOSX_DEPLOYMENT_TARGET=11.0` in the same shell.
+Use a fresh build directory when changing this value; cached deployment
+targets override the environment default. CI sets this during configure too.
+The environment variable reaches both
+Vesper and JUCE's recursive `juceaide` build; passing only
+`-DCMAKE_OSX_DEPLOYMENT_TARGET=11.0` does not reach that helper in JUCE 7.0.12.
+An explicit target below macOS 15 lets JUCE's `CGWindowListCreateImage` call
+compile with current SDKs.
 
 ```bash
 cmake -B build -DCMAKE_BUILD_TYPE=Release

@@ -36,6 +36,10 @@ jobs:
             libcurl4-openssl-dev
 
       - name: Configure
+        env:
+          # JUCE 7.0.12 uses CGWindowListCreateImage, unavailable for macOS 15+ targets.
+          # The environment also reaches JUCE's recursive juceaide configure.
+          MACOSX_DEPLOYMENT_TARGET: "11.0"
         run: cmake -B build -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }}
 
       - name: Build
